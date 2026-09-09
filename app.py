@@ -15,7 +15,7 @@ st.set_page_config(
 # ── LOAD DATA ─────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_excel('hcp_app.xlsx')
+    df = pd.read_excel('hcp_app.xls')
     return df
 
 df = load_data()
