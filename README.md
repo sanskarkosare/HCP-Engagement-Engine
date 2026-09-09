@@ -14,8 +14,9 @@ are most likely to prescribe GLP-1 drugs and recommends the best outreach channe
 ## Results
 | Metric | Value |
 |---|---|
-| AUC-ROC | 0.9732 (vs 0.8616 specialty-only baseline) |
-| Cross-validated AUC: 0.9758 ± 0.0004 (5-fold, stratified) |
+| AUC-ROC (held-out test set) | 0.9732 |
+| Cross-validated AUC (5-fold) | 0.9758 ± 0.0004 |
+| Specialty-only baseline AUC | 0.8616 |
 | Lift over specialty targeting | 112% |
 | Model converters/week | 2,981 (vs 1,405 baseline) |
 | Cost per conversion | $153 (vs $326 baseline) |
