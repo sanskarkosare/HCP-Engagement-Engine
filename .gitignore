@@ -1,0 +1,25 @@
+# Raw data — too large for GitHub
+data2024.csv
+MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv
+
+# Intermediate pipeline files — not needed for app
+hcp_master.csv
+hcp_scored.csv
+hcp_segmented.csv
+hcp_kol.csv
+hcp_nba.csv
+hcp_final.csv
+data2024_1.csv
+crm_layer.csv
+
+# Old model versions
+propensity_model.pkl
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
